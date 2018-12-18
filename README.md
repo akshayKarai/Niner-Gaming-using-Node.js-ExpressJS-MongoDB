@@ -24,7 +24,7 @@ npm install mongoose
 npm install async
 npm install express-validator
 ```
-#### To run the app
+#### To start the app run these commands
 
 - first terminal
 ```
