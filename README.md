@@ -1,6 +1,17 @@
 # Niner-Gaming-using-Node.js-ExpressJS-MongoDB
 
-This project involves a gaming rental portal in which users can rent and buy games available. Front end of the application was done in HTML, CSS 3, Bootstrap 4, Node.js and EJS. For the backend MongoDB was used. Mongoose client was used to Express to fetch the data from MongoDB. App also includes sessions to pass data from one page to another. Suppose a user had logged in, all the games available to him except his games are show in his profile. Suppose, no user has logged in, all the available games from the Database are shown.
+This project involves a gaming rental portal in which users can rent and buy games available. 
+Front end of the application is done in HTML, CSS 3, Bootstrap 4, Semantic UI, JavaScript, Node.js, Express.js and EJS. 
+For the backend MongoDB is used. Mongoose client is used to fetch the data from MongoDB. 
+Login and Signup functionalities are validated using Express validator.
+Express sanitizer is used to sanitize the user inputs.
+
+Used async and await method for retrieving data from MongoDB.
+This application also includes sessions to pass data from one page to another. 
+
+Suppose a user had logged in, all the games available to him except his games are shown in his profile. 
+Suppose, no user has logged in, all the available games from the Database are shown.
+User can make swap requests to other available games.
 
 #### More About Node.js [here](https://nodejs.org/en/)
 #### More About Express.js [here](https://expressjs.com/)
